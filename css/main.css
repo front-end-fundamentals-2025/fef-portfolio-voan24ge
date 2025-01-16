@@ -20,7 +20,7 @@ ul {
 }
 
 a {
-  color: rgba(169, 193, 169, 255);
+  color: rgb(75, 78, 81);
 }
 
 /* main */
@@ -29,9 +29,17 @@ a {
   width: 50%;
 }
 
+/* h1 */
+h1 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: rgba(169, 193, 169, 255);
+  border: 1px solid rgb(75, 78, 81);
+}
+
 /* footer */
 
 footer {
-  margin-top: 2.2rem;
-  border-top: 1px solid #3b5c7e;
+  margin-top: 4rem;
+  border-top: 1px solid rgb(75, 78, 81);
 }
