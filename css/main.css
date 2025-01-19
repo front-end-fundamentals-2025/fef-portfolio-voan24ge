@@ -8,14 +8,21 @@
 
 /* header */
 
+p {
+  color: rgba(78, 65, 56, 255);
+  margin-bottom: 0%;
+  text-align: center;
+}
+
 #logo {
-  .dancing-script {
-    font-family: "Dancing Script", serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  font-size: 2.5rem;
+  font-family: "Dancing Script", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-size: 3.5rem;
+  font-style: normal;
   color: rgba(238, 213, 191, 255);
+  margin-top: 0%;
+  text-align: center;
 }
 
 ul {
@@ -30,13 +37,20 @@ a {
 /* main */
 
 .main-img {
-  width: 45%;
+  /* The next 4 lines were adapted from https://www.w3schools.com/howto/howto_css_image_center.asp */
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
 }
 
 /* h1 */
 h1 {
+  margin-top: 2rem;
+  margin-bottom: 2.2rem;
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: rgba(169, 193, 169, 255);
   border: 1px solid rgb(75, 78, 81);
 }
@@ -46,6 +60,8 @@ h1 {
 footer {
   margin-top: 4rem;
   border-top: 1px solid rgb(75, 78, 81);
+  color: rgba(78, 65, 56, 255);
+  text-align: center;
 }
 
 /* contact page */
