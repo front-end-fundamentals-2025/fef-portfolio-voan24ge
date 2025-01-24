@@ -11,13 +11,12 @@
 p {
   color: rgba(78, 65, 56, 255);
   margin-bottom: 0%;
-  text-align: center;
 }
 
 header {
   display: flex;
-  /*flex-direction: column;*/
-  align-items: center; /*cross-axes*/
+  /*flex-direction: column;    if i want header in the center*/
+  align-items: center; /*cross-axes bcs rows*/
 }
 
 #logo {
@@ -42,7 +41,7 @@ li {
 }
 
 a {
-  color: rgb(75, 78, 81);
+  color: rgba(78, 65, 56, 255);
 }
 
 /* main */
@@ -71,7 +70,7 @@ h1 {
 footer {
   margin-top: 4rem;
   border-top: 1px solid rgb(75, 78, 81);
-  color: rgba(78, 65, 56, 255);
+  color: black;
   text-align: center;
 }
 
@@ -130,10 +129,29 @@ button:hover {
 
 /* my projects page*/
 
+h3 {
+  margin-top: 2rem;
+  margin-bottom: 2.2rem;
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: #57321f;
+  text-align: center;
+  border: 1px solid #57321f;
+}
+
+.project-container {
+  display: grid;
+  /*grid-template-columns: repeat(3, 1fr); */
+  grid-template-areas:
+    "category category category" /*represent 1 row with 3 columns*/
+    "category category category"; /* - we can eaily see grid in code*/
+}
+
 figure {
   margin-left: 0;
+  grid-area: category;
 }
 
 .project-covers {
-  width: 30%;
+  width: 100%; /*take 100% space of each column*/
 }
