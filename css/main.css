@@ -10,7 +10,7 @@
 
 p {
   color: rgba(78, 65, 56, 255);
-  margin-bottom: 0%;
+  margin-bottom: 0;
 }
 
 header {
@@ -26,7 +26,7 @@ header {
   font-size: 3.5rem;
   font-style: normal;
   color: rgba(238, 213, 191, 255);
-  margin-top: 0%;
+  margin-top: 0;
   text-align: center;
 }
 
@@ -42,6 +42,23 @@ li {
 
 a {
   color: rgba(78, 65, 56, 255);
+}
+
+@media screen and (max-width: 745px) {
+  header,
+  ul {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  ul {
+    margin-top: 1rem;
+  }
+
+  li {
+    margin-left: 0;
+    margin-bottom: 0.5rem;
+  }
 }
 
 /* main */
@@ -136,20 +153,31 @@ h3 {
   font-size: 2.5rem;
   color: #57321f;
   text-align: center;
-  border: 1px solid #57321f;
+  border: 1px solid rgb(128, 103, 94);
 }
 
-.project-container {
-  display: grid;
-  /*grid-template-columns: repeat(3, 1fr); */
-  grid-template-areas:
-    "category category category" /*represent 1 row with 3 columns*/
-    "category category category"; /* - we can eaily see grid in code*/
-}
+/*grid-template-areas:
+ "category category category" /*represent 1 row with 3 columns*/
+/* "category category category"; /* - we can eaily see grid in code*/
 
 figure {
-  margin-left: 0;
-  grid-area: category;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  /*grid-area: category;*/
+}
+
+@media screen and (min-width: 520px) {
+  /*at 794px grid start appearing*/
+  .project-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .project-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .project-covers {
