@@ -167,7 +167,7 @@ figure {
 }
 
 @media screen and (min-width: 520px) {
-  /*at 794px grid start appearing*/
+  /*at 520px grid start appearing*/
   .project-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -182,4 +182,41 @@ figure {
 
 .project-covers {
   width: 100%; /*take 100% space of each column*/
+}
+
+/* coffee table book page*/
+
+h4 {
+  margin-top: 2rem;
+  margin-bottom: 2.2rem;
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: #57321f;
+  text-align: center;
+}
+
+.coffee-project {
+  width: 100%;
+}
+
+figure {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+@media screen and (min-width: 747px) {
+  .coffee-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+h5 {
+  margin-top: 3rem;
+  margin-bottom: 2.2rem;
+  font-weight: 600;
+  font-size: 2rem;
+  color: black;
+  text-align: left;
+  border: 1px solid rgba(102, 96, 94, 0.667);
 }
