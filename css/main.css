@@ -240,11 +240,30 @@ h3 {
   border: 1px solid rgb(128, 103, 94);
 }
 
+/* chanel project page */
+
 h6 {
   margin-top: 2rem;
   margin-bottom: 2rem;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 2.5rem;
   color: black;
-  text-align: left;
+  text-align: center;
+  border: 1px solid rgba(102, 96, 94, 0.667);
+}
+
+.chanel-project {
+  width: 60%;
+}
+
+.chanel-figures {
+  margin-left: 13rem;
+  margin-right: 0;
+}
+
+@media screen and (min-width: 1100px) {
+  .chanel-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
