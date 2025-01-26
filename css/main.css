@@ -220,3 +220,31 @@ h5 {
   text-align: left;
   border: 1px solid rgba(102, 96, 94, 0.667);
 }
+
+/* brochure page */
+
+.brochure-project {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+h3 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: #3d2214e1;
+  text-align: center;
+  border: 1px solid rgb(128, 103, 94);
+}
+
+h6 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  font-size: 2rem;
+  color: black;
+  text-align: left;
+}
