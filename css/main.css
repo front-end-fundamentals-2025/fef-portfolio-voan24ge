@@ -214,6 +214,7 @@ figure {
 h5 {
   margin-top: 3rem;
   margin-bottom: 2.2rem;
+
   font-weight: 600;
   font-size: 2rem;
   color: black;
@@ -230,14 +231,29 @@ h5 {
   width: 20%;
 }
 
-h3 {
+.aeon-header {
+  display: flex;
+  flex-direction: column;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  font-weight: 600;
+
+  font-family: "Bona Nova SC", serif;
+  font-style: normal;
+  font-weight: 700;
   font-size: 2.5rem;
-  color: #3d2214e1;
+  color: rgb(115, 117, 72);
   text-align: center;
-  border: 1px solid rgb(128, 103, 94);
+}
+
+.aeon-about {
+  margin-top: 3rem;
+  margin-bottom: 2.2rem;
+
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #292814;
+  text-align: left;
+  border: 1px solid rgb(115, 117, 72);
 }
 
 /* chanel project page */
