@@ -1,0 +1,39 @@
+/* my projects page*/
+
+h3 {
+  margin-top: 2rem;
+  margin-bottom: 2.2rem;
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: #57321f;
+  text-align: center;
+  border: 1px solid rgb(128, 103, 94);
+}
+
+/*grid-template-areas:
+   "category category category" /*represent 1 row with 3 columns*/
+/* "category category category"; /* - we can eaily see grid in code*/
+
+figure {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  /*grid-area: category;*/
+}
+
+@media screen and (min-width: 520px) {
+  /*at 520px grid start appearing*/
+  .project-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .project-container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.project-covers {
+  width: 100%; /*take 100% space of each column*/
+}

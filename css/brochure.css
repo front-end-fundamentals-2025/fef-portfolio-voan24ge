@@ -1,0 +1,33 @@
+/* brochure page */
+
+.brochure-project {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+
+.aeon-header {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+  font-family: "Bona Nova SC", serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: rgb(115, 117, 72);
+  text-align: center;
+}
+
+.aeon-about {
+  margin-top: 3rem;
+  margin-bottom: 2.2rem;
+
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #292814;
+  text-align: left;
+  border: 1px solid rgb(115, 117, 72);
+}
