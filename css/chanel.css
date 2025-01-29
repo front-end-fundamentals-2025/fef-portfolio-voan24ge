@@ -1,13 +1,28 @@
 /* chanel project page */
 
-h6 {
+.chanel-header {
+  display: block;
   margin-top: 2rem;
   margin-bottom: 2rem;
+
   font-weight: 600;
   font-size: 2.5rem;
   color: black;
   text-align: center;
   border: 1px solid rgba(102, 96, 94, 0.667);
+}
+
+.chanel-about {
+  display: block;
+  margin-top: 2.2rem;
+  margin-bottom: 2rem;
+
+  font-family: "Mulish", serif;
+  font-weight: 600;
+  font-size: 2rem;
+  color: #292814;
+  text-align: left;
+  border: 1px solid #8a8b8d;
 }
 
 .chanel-project {
