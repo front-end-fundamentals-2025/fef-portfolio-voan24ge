@@ -1,0 +1,36 @@
+/* KUROMI PAGE */
+
+.kuromi-project {
+  display: block;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.kuromi-header {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  margin-bottom: 0;
+  text-align: center;
+
+  font-family: "Oregano", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 4.5rem;
+  color: #5c5b59;
+}
+
+.kuromi-about {
+  margin-top: 0;
+  margin-bottom: 2.2rem;
+
+  font-family: "Lato", serif;
+  font-weight: 600;
+  font-size: 1.9rem;
+  color: #f4acc4;
+  text-align: left;
+  border: 1px solid #a6838d;
+}
