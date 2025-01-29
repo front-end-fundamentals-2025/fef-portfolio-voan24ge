@@ -7,22 +7,22 @@
 
   font-family: "Montserrat", serif;
   font-optical-sizing: auto;
-  font-weight: 600;
-  font-size: 2.5rem;
   font-style: normal;
+  font-weight: 600;
+  font-size: 2.8rem;
   color: #57321f;
 }
 
 .coffee-about {
-  margin-top: 3rem;
-  margin-bottom: 2.2rem;
+  margin-top: 2.2rem;
+  margin-bottom: 2rem;
 
   font-family: "Mulish", serif;
   font-weight: 600;
   font-size: 1.8rem;
   color: #292814;
   text-align: left;
-  border: 1px solid rgb(115, 117, 72);
+  border: 1px solid #9aadc5;
 }
 
 .coffee-project {
