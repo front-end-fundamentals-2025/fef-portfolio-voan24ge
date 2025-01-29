@@ -1,11 +1,10 @@
-/* main elements*/
+/* main elements */
 
 * {
-  .poppins-regular {
-    font-family: "Poppins", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
+  font-family: "Lora", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
 }
 
 /* header */
@@ -69,17 +68,20 @@ a {
   /* The next 4 lines were adapted from https://www.w3schools.com/howto/howto_css_image_center.asp */
 
   display: block;
+  margin-top: 1.2rem;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
 }
 
 /* h1 */
-h1 {
+.about-me {
   margin-top: 2rem;
-  margin-bottom: 2.2rem;
+  margin-bottom: 2rem;
+
+  font-family: "PT Serif", serif;
   font-weight: 600;
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: rgba(169, 193, 169, 255);
   border: 1px solid rgb(75, 78, 81);
 }
