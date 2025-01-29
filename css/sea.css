@@ -1,0 +1,45 @@
+/* SEAVORANTE PAGE */
+
+.sea-header {
+  display: block;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+  font-family: "Tinos", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 3rem;
+  color: #202428;
+  text-align: center;
+  border: 1px solid #232c3d;
+}
+
+figure {
+  margin-left: 2rem;
+  margin-right: 2rem;
+}
+
+@media screen and (min-width: 749px) {
+  /*at 749px grid start appearing*/
+  .sea-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.sea-project {
+  width: 100%; /*take 100% space of each column*/
+}
+
+.sea-about {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+
+  font-family: "Mulish", serif;
+  font-weight: 600;
+  font-size: 1.8rem;
+  color: #0d4362;
+  text-align: left;
+  border: 1px solid #c0c0bf;
+}

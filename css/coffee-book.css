@@ -40,14 +40,3 @@ figure {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
-h5 {
-  margin-top: 3rem;
-  margin-bottom: 2.2rem;
-
-  font-weight: 600;
-  font-size: 2rem;
-  color: black;
-  text-align: left;
-  border: 1px solid rgba(102, 96, 94, 0.667);
-}
