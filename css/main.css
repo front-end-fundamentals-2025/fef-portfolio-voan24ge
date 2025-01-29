@@ -42,7 +42,7 @@ li {
 }
 
 a {
-  color: rgba(78, 65, 56, 255);
+  color: #4c4d48;
 }
 
 @media screen and (max-width: 745px) {

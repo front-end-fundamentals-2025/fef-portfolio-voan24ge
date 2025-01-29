@@ -1,10 +1,13 @@
 /* my projects page*/
 
-h3 {
+.projects-header {
+  display: block;
   margin-top: 2rem;
   margin-bottom: 2.2rem;
-  font-weight: 600;
-  font-size: 2.5rem;
+
+  font-family: "Rowdies", serif;
+  font-weight: 400;
+  font-size: 2.3rem;
   color: #57321f;
   text-align: center;
   border: 1px solid rgb(128, 103, 94);
