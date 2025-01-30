@@ -1,13 +1,5 @@
 /* KUROMI PAGE */
 
-.kuromi-project {
-  display: block;
-  margin-top: 0;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
 .kuromi-header {
   display: flex;
   flex-direction: column;
@@ -33,4 +25,12 @@
   color: #f4acc4;
   text-align: left;
   border: 1px solid #a6838d;
+}
+
+.kuromi-project {
+  display: block;
+  margin-top: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
