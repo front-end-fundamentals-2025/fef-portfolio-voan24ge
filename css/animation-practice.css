@@ -1,0 +1,118 @@
+/*div {
+  background-color: darksalmon;
+  width: 200px;
+  height: 200px;
+  margin-left: 200px;
+  margin-top: 200px;
+  border-radius: 20%;
+  animation-name: shake;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  25% {
+    transform: scale(1.2);
+    background-color: antiquewhite;
+  }
+
+  40% {
+    transform: rotate(-20deg) scale(1.2);
+    border-radius: 50%;
+  }
+
+  50% {
+    transform: rotate(20deg) scale(1.2);
+    background-color: burlywood;
+    border-style: dotted;
+    border-color: aquamarine;
+  }
+
+  60% {
+    transform: rotate(-20deg) scale(1.2);
+    background-color: aliceblue;
+  }
+
+  70% {
+    transform: rotate(20deg) scale(1.2);
+  }
+
+  80% {
+    transform: rotate(-20deg) scale(1.2);
+  }
+
+  90% {
+    transform: rotate(20deg) scale(1.2);
+  }
+
+  100% {
+    transform: scale(1);
+    background-color: crimson;
+  }
+}
+
+/* Transition on hover */
+/*
+section {
+  background-color: blueviolet;
+  height: 15vw;
+  width: 15vw;
+  transition: background-color 500ms ease;
+}
+
+section:hover {
+  background-color: coral;
+}
+*/
+/* Color animation with keyframes */
+
+/*section {
+  background-color: blueviolet;
+  height: 15vw;
+  width: 15vw;
+  animation-name: color-animation;
+  animation-duration: 3s;
+  animation-timing-function: ease;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes color-animation {
+  0% {
+    background-color: blueviolet;
+  }
+
+  50% {
+    background-color: royalblue;
+  }
+
+  100% {
+    background-color: antiquewhite;
+  }
+}
+  */
+
+/* Bounce animation */
+
+/*section {
+  background-color: blueviolet;
+  height: 15vw;
+  width: 15vw;
+  border-radius: 50%;
+  animation-name: bounce;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: ease;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(20px);
+  }
+  to {
+    transform: translateY(200px);
+  }
+}
+*/

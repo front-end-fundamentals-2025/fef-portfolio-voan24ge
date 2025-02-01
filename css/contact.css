@@ -36,18 +36,22 @@ textarea {
 
 button {
   font-family: "Poppins", serif;
-  display: block;
-  background-color: rgba(238, 213, 191, 255);
-  border-color: rgb(75, 78, 81);
   font-size: 20px;
+  display: block;
   text-align: center;
-  border-width: 1px;
   margin: 10px auto;
+
+  background-color: rgba(169, 193, 169, 255);
+  border-color: rgb(75, 78, 81);
+  border-width: 1px;
+
+  transition: background-color 500ms ease;
 }
 
-/*The next 3 lines were adapted from: https://www.youtube.com/watch?v=gWgzzVVcqfA */
+/* transition on hover */
 
 button:hover {
-  opacity: 0.7;
+  background-color: #fff1d1;
+  border-width: 2px;
   cursor: pointer;
 }

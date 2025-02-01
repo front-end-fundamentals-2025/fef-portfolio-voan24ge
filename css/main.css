@@ -26,9 +26,41 @@ header {
   font-weight: 900;
   font-size: 3.5rem;
   font-style: normal;
-  color: rgba(238, 213, 191, 255);
+  color: rgb(235, 175, 145);
   margin-top: 0;
   text-align: center;
+
+  animation-name: zooming;
+  animation-delay: 4s;
+  animation-duration: 3s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes zooming {
+  0% {
+    transform: scale(0.9);
+    color: #f7af91;
+  }
+
+  25% {
+    transform: scale(1.1);
+    color: rgb(242, 175, 145);
+  }
+
+  50% {
+    transform: scale(1);
+    color: #f9d694;
+  }
+
+  75% {
+    transform: scale(0.9);
+    color: #fff1d1;
+  }
+
+  100% {
+    transform: scale(0.8);
+    color: rgb(235, 175, 145);
+  }
 }
 
 ul {
@@ -64,14 +96,37 @@ a {
 
 /* main */
 
+/* cat animation */
+
+.pixel-img {
+  width: 3%;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  margin-left: 100px;
+  animation-name: appearing;
+  animation-duration: 4s;
+  animation-direction: alternate;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes appearing {
+  from {
+    transform: translateX(1500px);
+  }
+  to {
+    transform: translateX(1px);
+  }
+}
+
 .main-img {
   /* The next 4 lines were adapted from https://www.w3schools.com/howto/howto_css_image_center.asp */
 
   display: block;
-  margin-top: 1.2rem;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
+  border: 3px solid #fff1d1;
+  border-radius: 5%;
 }
 
 /* h1 */
