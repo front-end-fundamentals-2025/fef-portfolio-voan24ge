@@ -14,3 +14,17 @@ blueButton.addEventListener("click", function (event) {
 purpleButton.addEventListener("click", function (event) {
   bodyElement.style.backgroundColor = "#702963";
 });
+
+const headingElement = document.getElementById("heading");
+const inputElement = document.getElementById("input-name");
+const buttonElement = document.getElementById("enter-button");
+
+buttonElement.addEventListener("click", function (element) {
+  let enteredName = inputElement.value;
+
+  if (enteredName !== "") {
+    headingElement.innerText = "Hello " + enteredName + "!";
+  } else {
+    headingElement.innerText = "What's your name?";
+  }
+});
