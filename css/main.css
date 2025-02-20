@@ -75,6 +75,7 @@ li {
 
 a {
   color: #4c4d48;
+  text-decoration: none;
 }
 
 @media screen and (max-width: 745px) {
