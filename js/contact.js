@@ -20,7 +20,7 @@ function submition() {
   newButton.classList.add("return-button-style");
 
   newButton.addEventListener("click", function (event) {
-    // the next function was suggested by ChatGPT: https://chatgpt.com/c/67b72486-4d5c-800b-a2b5-b233461c140c
+    // the next function was suggested by ChatGPT: https://chatgpt.com/share/67b72640-b204-800b-bf08-3303d73fd866
     window.location.href = "contact.html";
   });
 
